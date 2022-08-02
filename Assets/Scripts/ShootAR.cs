@@ -14,7 +14,7 @@ public class ShootAR : MonoBehaviour {
  
     // Use this for initialization
     void Start () {
-        spawn = 0.15;
+        spawn = 0.1;
         timer = 0;
     }
    

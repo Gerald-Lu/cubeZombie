@@ -9,21 +9,25 @@ public class PlayerHealthScript : MonoBehaviour
     public int currentHealth;
     
     public HealthBarScript healthBar;
+    double timePassed;
 
     // Start is called before the first frame update
     void Start()
     {
         currentHealth = maxHealth;
         healthBar.SetMaxHealth(maxHealth);
+        timePassed = 0;
     }
 
     // Update is called once per frame
-    private void OnCollisionEnter (Collision collision)
+    private void OnCollisionStay (Collision collision)
     {
-        if (collision.collider.gameObject.CompareTag("Enemy"))
+        timePassed = timePassed + Time.deltaTime;
+        if (collision.collider.gameObject.CompareTag("Enemy") && timePassed >= 1)
         {
             TakeDamage(5);
-            Debug.Log("Hit");
+            Debug.Log("Hit Enemy");
+            timePassed = 0;
         }
     }
 

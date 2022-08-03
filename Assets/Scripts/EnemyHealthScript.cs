@@ -26,7 +26,7 @@ public class EnemyHealthScript : MonoBehaviour
         }
         
     }
-    void DamageTick (int damage){
+    public void DamageTick (int damage){
         enemyCurrentHealth -= damage;
         healthBar.SetEnemyHealth(enemyCurrentHealth);
         if (enemyCurrentHealth <= 0){

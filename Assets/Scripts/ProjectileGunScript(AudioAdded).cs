@@ -35,11 +35,11 @@ public class ProjectileGunScript : MonoBehaviour
     public bool allowInvoke = true;
 
     //Audio Script
-    // private AudioSource AKSound;
+    // private AudioSource GunSound;
     // private AudioSource SEreload; 
 
     //Audio Script
-    public AudioClip AKSound;
+    public AudioClip GunSound;
     public AudioClip reloadSound;
     AudioSource AKFire;
     AudioSource reload; 
@@ -49,7 +49,7 @@ public class ProjectileGunScript : MonoBehaviour
         AKFire = AddAudio();
         reload = AddAudio();
 
-        AKFire.clip = AKSound;
+        AKFire.clip = GunSound;
         reload.clip = reloadSound;
     }
 

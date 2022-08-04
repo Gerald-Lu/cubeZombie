@@ -25,7 +25,7 @@ public class PlayerHealthScript : MonoBehaviour
         timePassed = timePassed + Time.deltaTime;
         if (collision.collider.gameObject.CompareTag("Enemy") && timePassed >= 1)
         {
-            TakeDamage(5);
+            TakeDamage(10);
             Debug.Log("Hit Enemy");
             timePassed = 0;
         }

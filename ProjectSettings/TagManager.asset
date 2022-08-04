@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - pistol
   - Bullet
+  - gun
   layers:
   - Default
   - TransparentFX

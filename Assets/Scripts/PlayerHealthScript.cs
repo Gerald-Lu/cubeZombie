@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.SceneManagement;
 public class PlayerHealthScript : MonoBehaviour
 {
     //Berries (gonna start calling varibles berries because it sounds good)
@@ -36,5 +36,9 @@ public class PlayerHealthScript : MonoBehaviour
         currentHealth -= damage;
 
         healthBar.SetHealth(currentHealth);
+
+        if (currentHealth <= 0){
+            SceneManager.LoadScene(5);
+        }
     }
 }

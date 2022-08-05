@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovementScript : MonoBehaviour
 {
@@ -29,6 +30,10 @@ public class PlayerMovementScript : MonoBehaviour
         moveForward = Input.GetAxis("Vertical") * currentSpeed;
         moveSide = Input.GetAxis("Horizontal") *currentSpeed;
         moveUp = Input.GetAxis("Jump") * currentSpeed;
+        //if (SceneManager.GetActiveScene().name == "CubeZombieGerald")
+           // {
+               //audioPlayBetween.instance.GetComponent<AudioSource>().Pause();
+            //}
     }
     
     private void FixedUpdate()

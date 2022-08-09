@@ -1289,6 +1289,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: centralComputer
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 451020934548642a8acb2bd8f809aa70, type: 3}
+      propertyPath: m_TagString
+      value: collider
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 451020934548642a8acb2bd8f809aa70, type: 3}
 --- !u!1 &288553934
@@ -4015,8 +4019,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.6134975, y: 2.000002, z: 2.2785332}
-  m_Center: {x: -0.013197516, y: -0.00000005955617, z: 0.13926634}
+  m_Size: {x: 3.49146, y: 2.000002, z: 2.2785332}
+  m_Center: {x: -0.45217767, y: -3.494932e-10, z: 0.13926634}
 --- !u!1 &1172247009 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: be4daeb3488e74b498408dcc3261e9ff, type: 3}
@@ -9391,7 +9395,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1634661043}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.315, y: -0.248, z: 0.509}
+  m_LocalPosition: {x: 0.315, y: -0.248, z: 0.442}
   m_LocalScale: {x: 0.071878, y: 0.071878, z: 0.071878}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -9419,7 +9423,7 @@ GameObject:
   - component: {fileID: 1682761253}
   m_Layer: 0
   m_Name: 'ObjectiveOneTrigger '
-  m_TagString: Untagged
+  m_TagString: collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10041,7 +10045,7 @@ GameObject:
   - component: {fileID: 1872128026}
   m_Layer: 0
   m_Name: doorQ
-  m_TagString: Untagged
+  m_TagString: collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11105,7 +11109,7 @@ GameObject:
   - component: {fileID: 2083085267}
   m_Layer: 0
   m_Name: ObjectTwoTrigger
-  m_TagString: Untagged
+  m_TagString: collider
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -809,8 +809,8 @@ MonoBehaviour:
     on top of Mount Everest that researches and creates mutants. \n\nOne day, you
     woke up to a loud noise and find the mutants have escaped. All the other people
     were already killed, so you must collect the data from the central computer and
-    escape through the helicopter. \n\nKeybinds:\nWASD - movemenmnt\nE - Pick up\nQ
-    - Drop\nR - Reload\nShoot - Left Mouse Button"
+    escape through the helicopter. \n\nKeybinds:\nWASD - movement\nSpace - Jump\nE
+    - Pick up\nQ - Drop\nR - Reload\nShoot - Left Mouse Button"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

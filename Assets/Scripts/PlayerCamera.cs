@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class PlayerCamera : MonoBehaviour
 {
     //Variables
-    public float sensitivity = 1000f;
+    public float sensitivity;
     public Transform player;
 
     float rotationUpDown = 0f;

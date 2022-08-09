@@ -413,16 +413,13 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Bruh who cares
+  m_text: 'Creators: Aydan See, Brandon Peng, Gerald Lu, Kenneth Albarillo
 
 
-    Creators: Aydan See, Brandon Peng, Gerald Lu, Kenneth
-    Albarillo
-
-
-    Thank you to our instructors, Mirek and Dani, for helping us
-    along the way and being great mentors. Shoutout to the course assistants for
-    teaching us and Cluster 5 for being the best cluster.'
+    Thank
+    you to our instructors, Mirek and Dani, for helping us along the way and being
+    great mentors. Shoutout to the course assistants for teaching us and Cluster
+    5 for being the best cluster.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}

@@ -4350,7 +4350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 57d34f0f7e4786348800e7b1a3dff35c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sensitivity: 1000
+  sensitivity: 100
   player: {fileID: 1172247013}
 --- !u!65 &1270286299
 BoxCollider:

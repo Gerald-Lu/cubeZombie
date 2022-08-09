@@ -31,17 +31,18 @@ public class ObjectiveTrigger2 : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Player" && donePrevious)
-        {
-            Complete = true;
-            ObjectiveTextObject.SetActive(true);
-            CompletedText.SetActive(true);
-            ObjectiveText.text = "Survive for 30 seconds";
-            Debug.Log("fixedTrigger2");
-            StartCoroutine("WaitForSec");
+        if (Complete == false){
+            if(other.gameObject.tag == "Player" && donePrevious)
+            {
+                Complete = true;
+                ObjectiveTextObject.SetActive(true);
+                CompletedText.SetActive(true);
+                ObjectiveText.text = "Survive for 30 seconds";
+                Debug.Log("fixedTrigger2");
+                StartCoroutine("WaitForSec");
 
+            }
         }
-        
     }
 
     public IEnumerator WaitForSec()

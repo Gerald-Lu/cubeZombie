@@ -39,7 +39,7 @@ public class ObjectiveTrigger2 : MonoBehaviour
             ObjectiveText.text = "Survive for 30 seconds";
             Debug.Log("fixedTrigger2");
             StartCoroutine("WaitForSec");
-            finished2 = true;
+
         }
         
     }
@@ -49,7 +49,9 @@ public class ObjectiveTrigger2 : MonoBehaviour
             yield return new WaitForSeconds(30);
             ObjectiveText.text = "Files Export Complete";
             Debug.Log("Being called");
+            finished2 = true;
             Debug.Log(finished2);
+            
             
         }
 }

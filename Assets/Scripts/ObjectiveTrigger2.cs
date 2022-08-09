@@ -51,6 +51,9 @@ public class ObjectiveTrigger2 : MonoBehaviour
             Debug.Log("Being called");
             finished2 = true;
             Debug.Log(finished2);
+            yield return new WaitForSeconds(2);
+            ObjectiveText.text = "Find the door and leave";
+            Debug.Log("doorWORKS");
             
             
         }
